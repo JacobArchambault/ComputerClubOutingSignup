@@ -19,7 +19,12 @@ namespace ComputerClubOutingSignup
 
         private void lstBxEvents_SelectedIndexChanged(object sender, EventArgs e)
         {
-            txtBxResult.Text = lstBxEvents.Text;
+            string result = " ";
+            foreach (string activity in lstBxEvents.SelectedItems)
+            {
+                result += activity + " ";
+            }
+            this.txtBxResult.Text = result;
         }
     }
 }

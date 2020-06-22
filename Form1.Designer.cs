@@ -75,6 +75,7 @@
             "Sports Event"});
             this.lstBxEvents.Location = new System.Drawing.Point(12, 44);
             this.lstBxEvents.Name = "lstBxEvents";
+            this.lstBxEvents.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lstBxEvents.Size = new System.Drawing.Size(180, 132);
             this.lstBxEvents.Sorted = true;
             this.lstBxEvents.TabIndex = 3;
