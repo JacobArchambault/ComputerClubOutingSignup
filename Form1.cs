@@ -17,5 +17,9 @@ namespace ComputerClubOutingSignup
             InitializeComponent();
         }
 
+        private void lstBxEvents_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
