@@ -36,15 +36,15 @@
             // 
             // txtBxResult
             // 
-            this.txtBxResult.Location = new System.Drawing.Point(284, 290);
+            this.txtBxResult.Location = new System.Drawing.Point(12, 297);
             this.txtBxResult.Name = "txtBxResult";
-            this.txtBxResult.Size = new System.Drawing.Size(150, 39);
+            this.txtBxResult.Size = new System.Drawing.Size(676, 39);
             this.txtBxResult.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 290);
+            this.label1.Location = new System.Drawing.Point(12, 262);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 32);
             this.label1.TabIndex = 1;
@@ -84,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1040, 576);
             this.Controls.Add(this.lstBxEvents);
             this.Controls.Add(this.label2);
