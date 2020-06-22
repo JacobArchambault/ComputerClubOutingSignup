@@ -103,9 +103,9 @@
             // btnNew
             // 
             this.btnNew.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNew.Location = new System.Drawing.Point(198, 217);
+            this.btnNew.Location = new System.Drawing.Point(228, 197);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(222, 44);
+            this.btnNew.Size = new System.Drawing.Size(256, 40);
             this.btnNew.TabIndex = 6;
             this.btnNew.Text = "Add New One";
             this.btnNew.UseVisualStyleBackColor = true;
