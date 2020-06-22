@@ -30,6 +30,7 @@ namespace ComputerClubOutingSignup
         private void btnNew_Click(object sender, EventArgs e)
         {
             lstBxEvents.Items.Add(txtBxAddNew.Text);
+            txtBxAddNew.Clear();
         }
     }
 }

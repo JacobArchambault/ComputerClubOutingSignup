@@ -64,10 +64,10 @@
             // 
             // lstBxEvents
             // 
-            this.lstBxEvents.BackColor = System.Drawing.Color.Yellow;
-            this.lstBxEvents.ForeColor = System.Drawing.Color.Blue;
+            this.lstBxEvents.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.lstBxEvents.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lstBxEvents.FormattingEnabled = true;
-            this.lstBxEvents.ItemHeight = 32;
+            this.lstBxEvents.ItemHeight = 29;
             this.lstBxEvents.Items.AddRange(new object[] {
             "Amusement Park",
             "Boat Tour",
@@ -76,12 +76,12 @@
             "Hike",
             "Movies",
             "Sports Event"});
-            this.lstBxEvents.Location = new System.Drawing.Point(12, 44);
+            this.lstBxEvents.Location = new System.Drawing.Point(14, 40);
             this.lstBxEvents.Name = "lstBxEvents";
             this.lstBxEvents.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lstBxEvents.Size = new System.Drawing.Size(180, 132);
+            this.lstBxEvents.Size = new System.Drawing.Size(208, 120);
             this.lstBxEvents.Sorted = true;
-            this.lstBxEvents.TabIndex = 3;
+            this.lstBxEvents.TabIndex = 1;
             this.lstBxEvents.SelectedIndexChanged += new System.EventHandler(this.lstBxEvents_SelectedIndexChanged);
             // 
             // label3
@@ -113,10 +113,11 @@
             // 
             // ClubForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AcceptButton = this.btnNew;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1040, 576);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(1200, 522);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtBxAddNew);
             this.Controls.Add(this.label3);
@@ -124,7 +125,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtBxResult);
-            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ClubForm";
             this.Text = "Computer Club Outing Sign Up";
