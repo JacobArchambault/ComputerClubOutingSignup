@@ -32,6 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lstBxEvents = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtBxAddNew = new System.Windows.Forms.TextBox();
+            this.btnNew = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBxResult
@@ -81,12 +84,42 @@
             this.lstBxEvents.TabIndex = 3;
             this.lstBxEvents.SelectedIndexChanged += new System.EventHandler(this.lstBxEvents_SelectedIndexChanged);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 179);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(180, 32);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Add an Activity:";
+            // 
+            // txtBxAddNew
+            // 
+            this.txtBxAddNew.Location = new System.Drawing.Point(198, 172);
+            this.txtBxAddNew.Name = "txtBxAddNew";
+            this.txtBxAddNew.Size = new System.Drawing.Size(178, 39);
+            this.txtBxAddNew.TabIndex = 5;
+            // 
+            // btnNew
+            // 
+            this.btnNew.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNew.Location = new System.Drawing.Point(198, 217);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(222, 44);
+            this.btnNew.TabIndex = 6;
+            this.btnNew.Text = "Add New One";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
             // ClubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1040, 576);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.txtBxAddNew);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lstBxEvents);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -106,6 +139,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lstBxEvents;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtBxAddNew;
+        private System.Windows.Forms.Button btnNew;
     }
 }
 

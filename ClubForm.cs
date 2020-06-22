@@ -26,5 +26,10 @@ namespace ComputerClubOutingSignup
             }
             this.txtBxResult.Text = result;
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            lstBxEvents.Items.Add(txtBxAddNew.Text);
+        }
     }
 }
